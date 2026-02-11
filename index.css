@@ -1,0 +1,190 @@
+/* Reseta margens e define a fonte */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+}
+
+/* Fundo verde claro conforme protótipo */
+body {
+    background-color: #C5FF71; 
+    color: #333;
+}
+
+/* HEADER: Organiza logo e busca */
+header {
+    background-color: #C5FF71;
+    padding: 20px;
+}
+
+.header-top {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 20px;
+}
+
+.logo {
+    background-color: #F8E71C;
+    padding: 15px 30px;
+    font-weight: bold;
+    font-size: 1.5rem;
+}
+
+.search-bar {
+    flex-grow: 1;
+    display: flex;
+    margin: 0 40px;
+}
+
+.search-bar input {
+    width: 100%;
+    padding: 10px 20px;
+    border-radius: 20px 0 0 20px;
+    border: none;
+    background-color: #4DBFFF;
+}
+
+.search-bar button {
+    padding: 10px;
+    border-radius: 0 20px 20px 0;
+    border: none;
+    background-color: #4DBFFF;
+    cursor: pointer;
+}
+
+/* MENU: Botões azuis */
+.menu-navegacao {
+    display: flex;
+    justify-content: space-between;
+    gap: 10px;
+}
+
+.menu-navegacao button {
+    flex: 1;
+    padding: 12px;
+    border: none;
+    background-color: #4DBFFF;
+    font-size: 1.1rem;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+/* BANNER: Área amarela com centro vermelho */
+.banner-area {
+    background-color: #F8E71C;
+    height: 250px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 20px;
+}
+
+.banner-display {
+    background-color: #FF3D3D;
+    width: 70%;
+    height: 80%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: black;
+    font-weight: bold;
+    font-size: 1.5rem;
+}
+
+.arrow {
+    background-color: #4DBFFF;
+    color: white;
+    border: none;
+    padding: 15px;
+    font-size: 2rem;
+    cursor: pointer;
+}
+
+/* SEÇÃO DE PRODUTOS */
+.product-section {
+    padding: 40px 20px;
+}
+
+.product-section h2 {
+    margin-bottom: 20px;
+}
+
+/* GRID: 4 itens por linha usando Flexbox */
+.product-grid {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: space-between;
+}
+
+/* CARD: Fundo azul claro e arredondado */
+.product-card {
+    background-color: #4DBFFF;
+    width: calc(25% - 15px); /* Divide em 4 colunas */
+    min-width: 200px;
+    border-radius: 20px;
+    padding: 15px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.product-img {
+    background-color: #FF3D3D;
+    width: 100%;
+    height: 150px;
+    border-radius: 15px;
+    margin-bottom: 15px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    font-size: 0.8rem;
+    color: white;
+}
+
+.product-info {
+    background-color: #004AAD;
+    width: 100%;
+    padding: 15px;
+    color: white;
+    text-align: center;
+    margin-bottom: 10px;
+}
+
+/* BOTÃO ADICIONAR: Amarelo */
+.add-btn {
+    background-color: #FFB84D;
+    border: none;
+    padding: 10px;
+    width: 90%;
+    border-radius: 5px;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+/* FOOTER: Azul escuro fixo */
+footer {
+    background-color: #004AAD;
+    color: white;
+    padding: 40px;
+    text-align: center;
+    margin-top: 50px;
+}
+
+.payment-methods {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 15px;
+    margin-top: 20px;
+}
+
+.circle-icon {
+    width: 40px;
+    height: 40px;
+    background-color: #FF3D3D;
+    border-radius: 50%;
+}
