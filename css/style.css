@@ -14,28 +14,44 @@ body {
 
 /* HEADER: Organiza logo e busca */
 header {
-    background-color: #C5FF71;
-    padding: 20px;
+    background-color: #77cd00;
+    padding: 5
 }
+
+.logo {
+    width: 100px;
+    max-width: 100px;
+}
+
+.logo {
+    background-color: #F8E71C;
+    position: absolute;
+    top: 30px;
+    bottom: 0px ;
+    left: 30px;
+    font-weight: bold;
+    font-size: 1.9rem;
+}
+
+
+.cart-status {
+    position: absolute;
+    right: 150px;
+}
+
+ 
 
 .header-top {
     display: flex;
     align-items: center;
     justify-content: space-between;
-    margin-bottom: 20px;
-}
-
-.logo {
-    background-color: #F8E71C;
-    padding: 15px 30px;
-    font-weight: bold;
-    font-size: 1.5rem;
+    margin-bottom: 120px;  
 }
 
 .search-bar {
     flex-grow: 1;
     display: flex;
-    margin: 0 40px;
+    margin: 0 300px;
 }
 
 .search-bar input {
@@ -54,21 +70,18 @@ header {
     cursor: pointer;
 }
 
-/* MENU: Botões azuis */
 .menu-navegacao {
     display: flex;
-    justify-content: space-between;
-    gap: 10px;
+    justify-content: center;   /* centraliza */
+    gap: 20px;                 /* espaço entre eles */
+    padding: 0 30px;           /* 30px esquerda e direita */
 }
 
 .menu-navegacao button {
-    flex: 1;
-    padding: 12px;
-    border: none;
-    background-color: #4DBFFF;
-    font-size: 1.1rem;
-    cursor: pointer;
-    transition: 0.3s;
+    flex: 1;          /* divide igualmente */
+    max-width: 250px; /* impede de ficarem gigantes */
+    padding: 20px;
+    font-size: 16px;
 }
 
 /* BANNER: Área amarela com centro vermelho */
